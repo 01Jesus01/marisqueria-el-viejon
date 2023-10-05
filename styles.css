@@ -12,3 +12,40 @@
 .gradbg img {
     height: 300px;
 }
+
+table{
+    display: flex;
+    justify-content: center;
+}
+
+.icono-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono-direccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono-direccion img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.icono-texto img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.col, .Direccion, .Características, .Horarios{
+    font-size: 2rem;
+}
+
+.card-text, h5, p{
+    text-align: center;
+}
